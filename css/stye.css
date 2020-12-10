@@ -436,7 +436,7 @@ header .nav ul li a:hover::before {
   text-decoration: none;
   display: inline-block;
   background-color: blue;
-  color: white;
+
 }
 .classes .content .class-items .item:nth-child(1) .item-text a {
   color: #c11325;
