@@ -346,9 +346,9 @@ header .nav ul li a:hover::before {
 .classes {
   padding: 80px 0px 50px;
 }
-/* .classes .content .box{
-  padding: 15px;
-} */
+.classes .content{
+align-items: center;
+}
 .classes .content .img img {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -435,8 +435,6 @@ header .nav ul li a:hover::before {
   font-size: 16px;
   text-decoration: none;
   display: inline-block;
-  background-color: blue;
-
 }
 .classes .content .class-items .item:nth-child(1) .item-text a {
   color: #c11325;
@@ -446,11 +444,48 @@ header .nav ul li a:hover::before {
 }
 /* End Classes */
 
-
 /* Star Today */
+.star-today {
+  background-color: #222;
+}
+.star-today .content{
+  align-items: center;
+}
+.star-today .content .img img {
+  display: block;
+}
+.star-today .content .text h2 {
+  font-size: 30px;
+  font-weight: 500px;
+  color: #898989;
+  padding: 0px 0px 20px;
+}
 
+.star-today .content .text p {
+  font-size: 15px;
+  margin: 0 0 30px;
+  font-weight: 300px;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+}
+.star-today .content .text .btn {
+  padding: 8px 30px;
+  background-color:#c11325;
+  text-decoration: none;
+  color: #898989;
+  display: inline-block;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.star-today .content .text .btn:hover {
+  color: #fff;
+  border: 1px solid #898989;
+  background-color: transparent;
+}
 
 /* End Today */
-
-
+.schedule{
+  padding: 80px 0px;
+}
 /* END MAIN*/
