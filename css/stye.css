@@ -346,8 +346,8 @@ header .nav ul li a:hover::before {
 .classes {
   padding: 80px 0px 50px;
 }
-.classes .content{
-align-items: center;
+.classes .content {
+  align-items: center;
 }
 .classes .content .img img {
   -webkit-transform: rotateY(180deg);
@@ -448,7 +448,7 @@ align-items: center;
 .star-today {
   background-color: #222;
 }
-.star-today .content{
+.star-today .content {
   align-items: center;
 }
 .star-today .content .img img {
@@ -470,7 +470,7 @@ align-items: center;
 }
 .star-today .content .text .btn {
   padding: 8px 30px;
-  background-color:#c11325;
+  background-color: #c11325;
   text-decoration: none;
   color: #898989;
   display: inline-block;
@@ -485,7 +485,54 @@ align-items: center;
 }
 
 /* End Today */
-.schedule{
+
+/* Star schedule */
+.schedule {
   padding: 80px 0px;
 }
+.schedule .content .box {
+  padding: 15px;
+}
+.schedule .content .text h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+  padding: 0px 0px 20px;
+}
+.schedule .content .text p {
+  font-size: 15px;
+  margin: 0 0 30px;
+  font-weight: 300px;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+}
+.schedule .content .text img {
+  width: 100%;
+  transform: rotateY(180deg);
+}
+.schedule .content .timing .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.schedule .content .timing .table td {
+  border: 1px solid #dfdfdf;
+  padding: 8px;
+  font-size: 15px;
+  text-align: center;
+  color: #222;
+}
+.schedule .content .timing .table tr:nth-child(even) td.day {
+  background-color: #000;
+}
+.schedule .content .timing .table tr:nth-child(odd) td.day {
+  background-color: #444;
+}
+.schedule .content .timing .table tr:nth-child(1) td.day {
+  background-color: #c11325;
+}
+.schedule .content .timing .table tr td.day {
+  color: #fff;
+  border-color: transparent;
+}
+/* End schedule */
 /* END MAIN*/
