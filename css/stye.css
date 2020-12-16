@@ -537,31 +537,105 @@ header .nav ul li a:hover::before {
 /* End schedule */
 
 /* Star Gallery */
-.gallery .content{
+.gallery .content {
   flex-wrap: wrap;
 }
-.gallery h2{
+.gallery h2 {
   font-size: 30px;
   font-weight: 500px;
   color: #898989;
   padding: 0px 0px 20px;
   text-align: center;
 }
-.gallery .content .box{
+.gallery .content .box {
   flex: 0 0 50%;
   max-width: 50%;
 }
-.gallery .content .box img{
+.gallery .content .box img {
   display: block;
   width: 100%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
-.gallery .content .box img:hover{
-  -webkit-filter:grayscale(0%);
-  filter:grayscale(0%);
+.gallery .content .box img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 /* End Gallery */
+
+/* Star Price */
+
+.prices {
+  padding: 80px 0px;
+  background-color: #fff;
+}
+
+.prices h2 {
+  font-size: 30px;
+  font-weight: 500px;
+  color: #898989;
+  padding: 0px 0px 20px;
+  text-align: center;
+}
+.prices .title-p {
+  font-size: 15px;
+  margin: 0;
+  font-weight: 300px;
+  text-align: center;
+  padding: 0 20% 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.prices .box .inner {
+  background-color: #f8e6e6;
+}
+.prices .box .inner .price {
+  padding: 15px;
+  font-size: 20px;
+  background-color: #c11325;
+  color: #fff;
+  text-align: center;
+}
+.prices .box .inner .text {
+  padding: 15px;
+  text-align: center;
+}
+.prices .box .inner .text h3 {
+  font-size: 24px;
+  color: #222;
+  margin: 0;
+  padding: 0px 0px 20px;
+}
+.prices .box .inner .text p {
+  display: block;
+  font-size: 15px;
+  margin: 0;
+  font-weight: 300px;
+  text-align: center;
+  padding: 0 0 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.prices .box .inner .text .btn {
+  padding: 8px 30px;
+  background-color: #c11325;
+  text-decoration: none;
+  color: #898989;
+  display: inline-block;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.prices .box .inner .text .btn:hover {
+  color: #000;
+  border: 1px solid #898989;
+  background-color: transparent;
+}
+.prices .box .inner .img img {
+  width: 100%;
+}
+
+/* End Price */
+
 /* END MAIN*/
