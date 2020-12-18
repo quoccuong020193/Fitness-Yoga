@@ -567,19 +567,19 @@ header .nav ul li a:hover::before {
 
 /* Star Price */
 
-.prices {
+.price-package {
   padding: 80px 0px;
   background-color: #fff;
 }
 
-.prices h2 {
+.price-package h2 {
   font-size: 30px;
   font-weight: 500px;
   color: #898989;
   padding: 0px 0px 20px;
   text-align: center;
 }
-.prices .title-p {
+.price-package .title-p {
   font-size: 15px;
   margin: 0;
   font-weight: 300px;
@@ -588,36 +588,36 @@ header .nav ul li a:hover::before {
   font-family: "Open Sans", sans-serif;
 }
 
-.prices .box .inner {
+.price-package .box .inner {
   background-color: #f8e6e6;
 }
-.prices .box .inner .price {
+.price-package .box .inner .price {
   padding: 15px;
   font-size: 20px;
   background-color: #c11325;
   color: #fff;
   text-align: center;
 }
-.prices .box .inner .text {
+.price-package .box .inner .text {
   padding: 15px;
   text-align: center;
 }
-.prices .box .inner .text h3 {
-  font-size: 24px;
-  color: #222;
+.price-package .box .inner .text h3 {
+  font-size: 20px;
+  font-weight: 700;
   margin: 0;
+  color: #222;
   padding: 0px 0px 20px;
 }
-.prices .box .inner .text p {
+.price-package .box .inner .text p {
   display: block;
   font-size: 15px;
   margin: 0;
-  font-weight: 300px;
   text-align: center;
   padding: 0 0 20px;
   font-family: "Open Sans", sans-serif;
 }
-.prices .box .inner .text .btn {
+.price-package .box .inner .text .btn {
   padding: 8px 30px;
   background-color: #c11325;
   text-decoration: none;
@@ -627,15 +627,50 @@ header .nav ul li a:hover::before {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.prices .box .inner .text .btn:hover {
-  color: #000;
-  border: 1px solid #898989;
+.price-package .box .inner .text .btn:hover {
+  border-color: #222;
+  color: #222;
   background-color: transparent;
 }
-.prices .box .inner .img img {
+.price-package .box .inner .img img {
   width: 100%;
 }
 
 /* End Price */
 
+/* Star Contact*/
+.contact {
+  padding: 80px 0px;
+  background-color: #222;
+}
+.contact .content .box {
+  padding: 15px;
+}
+.contact .content .form input,
+.contact .content .form textarea {
+  height: 45px;
+  width: 100%;
+  padding: 6px 12px;
+  margin-bottom: 25px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.contact .content .form input::placeholder,
+.contact .content .form textarea::placeholder {
+  color: #fff;
+}
+.contact .content .form textarea {
+  height: 100px;
+}
+.contact .content .form button{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  height: 45px;
+  padding: 0 30px;
+  background-color: #fff;
+  color: #222;
+}
+/* End Contact */
 /* END MAIN*/
