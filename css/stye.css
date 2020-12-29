@@ -24,13 +24,13 @@ a {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-a,
+/* a,
 p,
 span,
 i,
 img {
   display: inline-block;
-}
+} */
 img {
   max-width: 100%;
 }
@@ -45,12 +45,14 @@ img {
 
 /* STAR HEADER*/
 header {
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   left: 0px;
   top: 0px;
   width: 100%;
   z-index: 12;
-  padding: 20px 15px;
+  background-color: #000;
+  padding: 10px 15px;
 }
 header .tcl-cotainer {
   align-items: center;
@@ -659,9 +661,8 @@ header .nav ul li a:hover::before {
 }
 .contact .content .form input:focus,
 .contact .content .form textarea:focus {
-  outline:none;
+  outline: none;
   border-color: #c11325;
-
 }
 .contact .content .form input::placeholder,
 .contact .content .form textarea::placeholder {
@@ -676,17 +677,83 @@ header .nav ul li a:hover::before {
   box-shadow: none;
   height: 45px;
   padding: 0 40px;
-  border:1px solid transparent;
+  border: 1px solid transparent;
   background-color: #c11325;
   color: #fff;
   font-size: 15px;
   transition: all 0.5s ease;
   cursor: pointer;
 }
-.contact .content .form button:hover{
+.contact .content .form button:hover {
   background-color: transparent;
   color: #fff;
   border-color: #fff;
+}
+.contact .content .text h2 {
+  font-size: 30px;
+  font-weight: 409;
+  color: #c11325;
+  padding: 0px 0px 20px;
+}
+.contact .content .text p {
+  display: block;
+  font-size: 15px;
+  margin: 0;
+  color: #ffff;
+  padding: 0 0 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.contact .content .text .info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact .content .text .info li {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  position: relative;
+  padding-left: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+.contact .content .text .info li span {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  color: #c11325;
+  font-size: 20px;
+}
+.contact .content .text .social {
+  padding-top: 30px;
+}
+.contact .content .text .social a {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #c11325;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.contact .content .text .social a:hover {
+  background-color: transparent;
+  border-color: #80858c;
+}
+.contact .content .text .social a span {
+  color: #fff;
+  font-size: 15px;
+}
+.contact .content .text .copy {
+  padding-top: 20px;
+  margin-top: 30px;
+  color: #c11325;
+  font-size: 12px;
 }
 /* End Contact */
 /* END MAIN*/
