@@ -1,6 +1,6 @@
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 /* START RESET CSS*/
 
 * {
@@ -70,6 +70,7 @@ header .ham-burger {
   display: inline-block;
   position: relative;
   z-index: 100;
+  margin-top: 16px;
 }
 header .ham-burger span {
   height: 3px;

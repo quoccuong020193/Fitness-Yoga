@@ -2,10 +2,10 @@
 // jquery
 
 $(document).ready(function(){
-    $(".ham-burger").click(function(){
+    $(".ham-burger, .nav ul li a").click(function(){
 
         $('.nav').toggleClass("open")
-        $(this).toggleClass("active")
+        $('.ham-burger').toggleClass("active")
     })
     $(".accordian-container").click(function(){
       $(".accordian-container").children(".body").slideUp();
@@ -17,3 +17,11 @@ $(document).ready(function(){
     })
 })
     
+$(".nav ul li a go-down").click(function(event) {
+  if(this.hash !== ""){
+    event.preventDefault();
+    var hash = this.hash;
+    $('html,body').animate({ scrollTop: $(hash).offset().top }, 800, function(){window.location.hash=hash});
+  }
+ 
+})
