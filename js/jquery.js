@@ -17,11 +17,16 @@ $(document).ready(function(){
     })
 })
     
-$(".nav ul li a go-down").click(function(event) {
+$(".nav ul li a, .go-down").click(function(event) {
   if(this.hash !== ""){
     event.preventDefault();
     var hash = this.hash;
     $('html,body').animate({ scrollTop: $(hash).offset().top }, 800, function(){window.location.hash=hash});
+
+    // add active class navigation
+
+    $(".nav ul li a").removeClass("active")
+    $(this).addClass("active")
   }
  
 })
