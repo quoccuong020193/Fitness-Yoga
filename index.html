@@ -8,10 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="font/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap-tcl.css">
     <link rel="stylesheet" href="css/stye.css">
     <link rel="stylesheet" href="css/reponsive.css">
-  
+    <style>
+        .wow:first-child {
+          visibility: hidden;
+        }
+      </style>
 </head>
 <body>
     <!-- Start Header -->
@@ -51,8 +56,8 @@
       <section class="home" id="home">
         <div class="tcl-cotainer">
             <div class="tcl-row">
-                <h1>It's <span>gym</span> time. Let's go</h1>
-                <h1>We are ready to <span>fit you</span></h1>
+                <h1 class="wow slideInLeft">It's <span>gym</span> time. Let's go</h1>
+                <h1 class="wow slideInRight">We are ready to <span>fit you</span></h1>
             </div>
         </div>
         <!-- go down -->
@@ -420,5 +425,15 @@
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="lib/wow/wow.min.js"></script>
 <script src="js/jquery.js"></script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       0,
+      }
+    );
+    wow.init();
+  </script>
 </html>
