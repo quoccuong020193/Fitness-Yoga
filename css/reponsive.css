@@ -1,0 +1,23 @@
+@media only screen and (max-width: 991px) {
+  .home {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home h1 {
+    font-size: 30px;
+  }
+  .about .content {
+    flex-wrap: wrap;
+  }
+  .about .content .tcl-col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .home h1 {
+    font-size: 30px;
+    margin-left: 25px;
+  }
+}
